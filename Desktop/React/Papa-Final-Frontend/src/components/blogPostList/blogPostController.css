@@ -1,0 +1,57 @@
+.blog-post-controller {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+}
+
+.blog-posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* This will center the cards horizontally */
+    gap: 20px; /* Adds space between cards */
+}
+
+.blog-post-container {
+    background-color: #f4f4f4;
+    border: 1px solid #f73333;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;  /* Fixed width for all cards */
+    box-shadow: 0 2px 5px rgba(134, 60, 60, 0.1);
+    margin-bottom: 15px;
+}
+
+.button-container {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.button-container button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+}
+.delete-button {
+    padding: 5px 10px;
+    background-color: #dc3545; /* Bootstrap danger color for red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* A slightly darker red for hover effect */
+}
